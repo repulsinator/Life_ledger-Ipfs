@@ -9,7 +9,7 @@ const FormData = require('form-data');
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 4000; // Default port to listen
+const port = process.env.PINATA_PORT || 4000; // Default port to listen
 
 
 // Set up CORS
